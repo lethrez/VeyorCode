@@ -1,0 +1,11 @@
+/home/leo/Documents/jobs/VeyorCode/bin/Debug/netcoreapp2.2/VeyorCode.deps.json
+/home/leo/Documents/jobs/VeyorCode/bin/Debug/netcoreapp2.2/VeyorCode.runtimeconfig.json
+/home/leo/Documents/jobs/VeyorCode/bin/Debug/netcoreapp2.2/VeyorCode.runtimeconfig.dev.json
+/home/leo/Documents/jobs/VeyorCode/bin/Debug/netcoreapp2.2/VeyorCode.dll
+/home/leo/Documents/jobs/VeyorCode/bin/Debug/netcoreapp2.2/VeyorCode.pdb
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.csprojAssemblyReference.cache
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.csproj.CoreCompileInputs.cache
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.AssemblyInfoInputs.cache
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.AssemblyInfo.cs
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.dll
+/home/leo/Documents/jobs/VeyorCode/obj/Debug/netcoreapp2.2/VeyorCode.pdb
