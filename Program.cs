@@ -10,6 +10,7 @@ namespace VeyorCode
             QuestionOne testOne = new QuestionOne();
             QuestionTwo testTwo = new QuestionTwo();
             QuestionTwo testThree = new QuestionTwo();
+            QuestionTwo testThree = new QuestionTwo();
         }
     }
 
