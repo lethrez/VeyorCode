@@ -12,7 +12,6 @@ namespace VeyorCode
             QuestionTwo testThree = new QuestionTwo();
             QuestionTwo testThree = new QuestionTwo();
             QuestionTwo testThree = new QuestionTwo();
-
         }
     }
 
