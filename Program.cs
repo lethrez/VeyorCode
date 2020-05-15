@@ -9,9 +9,10 @@ namespace VeyorCode
         {
             QuestionOne testOne = new QuestionOne();
             QuestionTwo testTwo = new QuestionTwo();
+            QuestionTwo testThree = new QuestionTwo();
         }
     }
-    
+
     class QuestionOne
     {
         public QuestionOne()
@@ -25,7 +26,7 @@ namespace VeyorCode
             customSort(numbers);
         }
 
-        public static void customSort(int[] arr) 
+        public static void customSort(int[] arr)
         {
             var result =  arr.GroupBy( n => n )
                 .OrderBy(n => n.Count())
@@ -53,7 +54,7 @@ namespace VeyorCode
         public static void solver(long n,long k)
         {
             /*
-                Explanation: 
+                Explanation:
                 Greedy problem involving skipping the first number if it lands on K during with the largest triangular number <= k
                 sum of triangular number T = n(n+1) / 2
                 equate to zero              n^2 + n - 2T = 0
@@ -63,7 +64,7 @@ namespace VeyorCode
                 if this is equal to k we skip the first number, else we take the sum of that trianglular number.
                 https://en.wikipedia.org/wiki/Triangular_number
             */
-            if (n <= 0) 
+            if (n <= 0)
             {
                 System.Console.WriteLine(0);
                 return;
@@ -71,13 +72,13 @@ namespace VeyorCode
 
             // Find largest triangle number <= k
             long tNumber = (long) Math.Floor(( Math.Sqrt(8*k + 1) - 1 ) / 2 );
-            if ( tNumber*(tNumber+1)/2 == k ) 
+            if ( tNumber*(tNumber+1)/2 == k )
             {
                 // For this case skip 1
                 System.Console.WriteLine( ((n*(n+1)/2 - 1 ) % staticMod));
                 return;
             }
-            else 
+            else
             {
                 // We do not need to skip any
                 System.Console.WriteLine( ((n*(n+1)/2) % staticMod));
